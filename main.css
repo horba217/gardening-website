@@ -1,0 +1,49 @@
+
+body {
+    background-image: url('sky.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrollbars from drifting seeds */
+    min-height: 100vh;
+    
+
+}
+
+a{
+text-decoration: none;
+}
+
+h1{
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 100px;
+    color: rgb(47, 64, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.image-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;  
+}
+
+.image-container img{
+display: block; 
+width: 1800px;    
+height: auto; 
+position: absolute;
+top: 500px;
+}
+
+
+  
+   
